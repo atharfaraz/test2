@@ -1,0 +1,185 @@
+/* 
+    Document   : admhome
+    Created on : Sep 17, 2013, 5:24:52 PM
+    Author     : Faraz
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body
+{
+    min-height:100%;
+    min-width:100%;
+}
+
+.container_fill
+{
+   margin: 1%;
+   border: 1px solid #D0D0D0;
+   -webkit-box-shadow: 0 0 8px #D0D0D0;
+   min-height: 99%;
+   min-width:98%;
+   
+}
+#header
+{
+    width:100%;
+    height:20%;
+    border-bottom:  dotted;
+}
+#menu
+{
+    width:100%;
+    height:8%;
+    
+    
+
+    
+}
+#content
+{
+     width:84%;
+    height:80%;
+    
+    float: center;
+}
+.thead
+{
+    
+    font-weight: bold;
+    font-family:  "Arial Black", Gadget, sans-serif;
+    background-color:#D0D0D0;   
+}
+p
+{
+   font-weight: bold; 
+   text-align: center;
+   text-decoration: underline; 
+   color: blue;
+}
+button
+{
+    font-family: Gill, Helvetica, sans-serif;
+    
+}
+table
+{
+    vertical-align: middle;
+    border:0;
+    font-family: sans-serif;
+    font-weight: 500;
+   
+}
+#category_list
+{
+
+
+}
+#rel_attributes
+{
+    
+   
+  
+   
+    
+}
+#logo
+{
+    float: left;
+    width: 30%;
+        
+}
+#median
+{
+    float:left;
+    width:40%;
+      
+}
+#activity
+{
+    float: right;
+    wigth: 27%;
+     
+}
+
+.tr_odd
+{
+    background-color:#e6e6e6;
+    
+}
+.tr_even
+{
+    background-color:#eee;
+}
+.row_selected
+{
+    background-color: lawngreen;
+}
+#heading
+{
+     font-weight: bold;
+     font-size: large;
+    font-family:  "Arial Black", Gadget, sans-serif;
+    background-color:lightgoldenrodyellow;
+    text-align: center;
+    alignment-adjust: central;
+}
+td
+{
+ 
+}
+/* the following is for Horizontal Menu*/
+.ui-menu { 
+    overflow: hidden;
+}
+.ui-menu .ui-menu {
+    overflow: visible !important;
+}
+.ui-menu > li { 
+    float: left;
+    display: block;
+    width: auto !important;
+
+}
+.ui-menu ul li {
+    display:block;
+    float:none;
+}
+.ui-menu ul li ul {
+    left:120px !important;
+    width:100%;
+}
+.ui-menu ul li ul li {
+    width:auto;
+}
+.ui-menu ul li ul li a {
+
+    float:left;
+}
+.ui-menu > li {
+    margin: 5px 5px !important;
+    padding: 0 0 !important;
+}
+.ui-menu > li > a { 
+    float: left;
+    display: block;
+    clear: both;
+    overflow: hidden;
+
+}
+.ui-menu .ui-menu-icon { 
+    margin-top: 0.3em !important;
+}
+.ui-menu .ui-menu .ui-menu li { 
+    float: left;
+    display: block;
+}
+
+#history
+{
+    font-family: monospace;
+    font-size:smaller;
+}

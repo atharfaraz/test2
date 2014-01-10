@@ -1,0 +1,133 @@
+/* 
+    Document   : admhome
+    Created on : Sep 17, 2013, 5:24:52 PM
+    Author     : Faraz
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body
+{
+    min-height:100%;
+    min-width:100%;
+}
+
+.container_fill
+{
+   margin: 1%;
+   border: 1px solid #D0D0D0;
+   -webkit-box-shadow: 0 0 8px #D0D0D0;
+   min-height: 99%;
+   min-width:98%;
+   
+}
+#header
+{
+    width:100%;
+    height:20%;
+    border-bottom:  dotted;
+}
+#menu
+{
+    width:15%;
+    height:76%;
+    border-right: dotted;
+    
+    float: left;
+    
+}
+#content
+{
+     width:84%;
+    height:80%;
+    
+    float: right;
+}
+.thead
+{
+    
+    font-weight: bold;
+    font-family:  "Arial Black", Gadget, sans-serif;
+    background-color:#D0D0D0;   
+}
+p
+{
+   font-weight: bold; 
+   text-align: center;
+   text-decoration: underline; 
+   color: blue;
+}
+button
+{
+    font-family: Gill, Helvetica, sans-serif;
+    
+}
+table
+{
+    vertical-align: middle;
+    border:0;
+    font-family: sans-serif;
+    font-weight: 500;
+   
+}
+#category_list
+{
+float: left;
+width: 75%;
+}
+#rel_attributes
+{
+    float: right;
+    width:  24%;
+    border-left: dotted;
+    min-height: 95%;
+    
+}
+#logo
+{
+    float: left;
+    width: 30%;
+        
+}
+#median
+{
+    float:left;
+    width:40%;
+      
+}
+#activity
+{
+    float: right;
+    wigth: 27%;
+    
+}
+
+.tr_odd
+{
+    background-color:#e6e6e6;
+    
+}
+.tr_even
+{
+    background-color:#eee;
+}
+.selected
+{
+    background-color: lawngreen;
+}
+#heading
+{
+     font-weight: bold;
+     font-size: large;
+    font-family:  "Arial Black", Gadget, sans-serif;
+    background-color:lightgoldenrodyellow;
+    text-align: center;
+    alignment-adjust: central;
+}
+td
+{
+ 
+}
